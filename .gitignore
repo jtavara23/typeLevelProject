@@ -1,0 +1,23 @@
+# sbt
+target/
+project/target/
+project/project/
+
+# IDE
+.idea/
+.bsp/
+.metals/
+.vscode/
+
+# OS
+.DS_Store
+
+# LocalStack
+localstack-data/
+
+# CDK
+infra/node_modules/
+infra/cdk.out/
+
+# Assembly
+*.jar
