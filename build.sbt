@@ -73,6 +73,7 @@ lazy val service = (project in file("service"))
       "is.cir" %% "ciris" % cirisVersion,
       "org.tpolecat" %% "natchez-core" % natchezVersion,
       "org.tpolecat" %% "natchez-log" % natchezVersion,
+      "org.typelevel" %% "log4cats-slf4j" % "2.7.0",
       "software.amazon.awssdk" % "dynamodb" % awsSdkVersion,
       "software.amazon.awssdk" % "kinesis" % awsSdkVersion,
       "ch.qos.logback" % "logback-classic" % logbackVersion % Runtime
